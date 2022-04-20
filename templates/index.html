@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Iris Flower Classification System
+        </title>
+    </head>
+    <body>
+        <div>
+            <h1 align="center"> Iris Flower Classification</h1>
+        </div>
+        <div width="70%">
+
+            <div width="50%" align="center" style="border:dashed red; background-color:cyan;padding:100;width:50%;margin:auto;">
+                <form method="POST" action="/result">
+                    <h2 align="center"> Enter the measurement of flower </h2>
+                    <input type="text" name="sepal_length" placeholder="Enter Sepal Length"></br>
+                    <input type="text" name="sepal_width" placeholder="Enter Sepal Width"></br>
+                    <input type="text" name="petal_length" placeholder="Enter Petal Length"></br>
+                    <input type="text" name="petal_width" placeholder="Enter Petal Width"></br>
+                    <input type="submit" value="Get Class Prediction"></br>
+                    <!-- Look at the above line, we havenot provided name to submit to avoid map error in script.py -->
+                </form>
+            </div>
+        </div>
+        <div>
+        </div>
+    </body>
+</html>
